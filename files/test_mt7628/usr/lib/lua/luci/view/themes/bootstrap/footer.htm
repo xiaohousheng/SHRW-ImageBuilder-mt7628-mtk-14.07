@@ -1,0 +1,40 @@
+<%#
+LuCI - Lua Configuration Interface
+Copyright 2008 Steven Barth <steven@midlink.org>
+Copyright 2008 Jo-Philipp Wich <xm@leipzig.freifunk.net>
+Copyright 2012 David Menting <david@nut-bolt.nl>
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+-%>
+<%
+	local disp = require "luci.dispatcher"
+
+	local request  = disp.context.path
+
+	local category = request[1]
+
+	local tree = disp.node()
+
+	local categories = disp.node_childs(tree)
+%>
+   <footer><p><span><strong>FastAlp s.r.l.</strong> - Via Circonvallazione, 58/b 11026 Pont Saint Martin (Ao) - Tel. 0125/1865100 Fax 0125/1865177 P. IVA: 01079120075 &nbsp;Email:&nbsp;</span><a href="mailto:info@fastalp.it">info@fastalp.it</a><span>&nbsp;</span></p>
+
+    <% if #categories > 1 then %>
+     <ul class="breadcrumb pull-right" id="modemenu">
+	    <% for i, r in ipairs(categories) do %>
+		    <li<% if request[1] == r then %> class="active"<%end%>><a href="<%=controller%>/<%=r%>/"><%=striptags(translate(tree.nodes[r].title))%></a> <span class="divider">|</span></li>
+	    <% end %>
+     </ul>
+    <% end %>
+   </footer>
+   </div>
+  </div>
+ </body>
+</html>
+
+

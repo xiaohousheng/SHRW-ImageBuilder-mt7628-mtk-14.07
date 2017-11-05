@@ -1,0 +1,14 @@
+Package: miniupnpd
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Source: feeds/routing/miniupnpd
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: ramips_24kec
+Installed-Size: 53113
+Filename: miniupnpd_1.8.20140523-4_ramips_24kec.ipk
+Size: 53753
+MD5Sum: 0def9c6cf965a1c38d6f0e648523dd0a
+SHA256sum: 3e4137cbf4d904d1c3325acd396d46a2247a22b2ff60ad1f60541275a754639f
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+

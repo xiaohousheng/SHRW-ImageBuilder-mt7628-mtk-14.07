@@ -1,0 +1,15 @@
+
+config system
+	option hostname 'SHRW'
+	option zonename 'Europe/Rome'
+	option timezone 'CET-1CEST-2,M3.5.0,M10.5.0/3'
+	option conloglevel '8'
+	option cronloglevel '8'
+
+config timeserver 'ntp'
+	option enabled '1'
+	list server '193.204.114.232'
+	list server '193.204.114.233'
+	list server '2.openwrt.pool.ntp.org'
+	list server '3.openwrt.pool.ntp.org'
+

@@ -1,0 +1,384 @@
+Package: bash
+Version: 4.2-5
+Depends: libc, libncurses
+Source: feeds/packages/utils/bash
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 327532
+Filename: bash_4.2-5_ramips_24kec.ipk
+Size: 328107
+MD5Sum: 29f7668315d7bc75c67d4f488512534c
+SHA256sum: 8359d5ba7ede4614b342bf767dd334594a8c21fba8f773eac529cba9ccffd9df
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: etherwake
+Version: 1.09-3
+Depends: libc
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 5060
+Filename: etherwake_1.09-3_ramips_24kec.ipk
+Size: 5803
+MD5Sum: cde4145aae0a1cd3ce639477232743eb
+SHA256sum: bed7236187cfa5b89a0bed7411942100f9251b36f22ac9c1e429de7d68153d40
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: horst
+Version: 4.2-1
+Depends: libc, libncurses
+Source: feeds/packages/net/horst
+License: GPL-2.0+
+Section: net
+Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: ramips_24kec
+Installed-Size: 33912
+Filename: horst_4.2-1_ramips_24kec.ipk
+Size: 34578
+MD5Sum: 17f55eee3f135586daaec09df6e66d29
+SHA256sum: 3c5d034534d092f7fc11e2913db7aa180f7844717dd216ffabb54d760af7360f
+Description:  [horst] is a scanning and analysis tool for 802.11 wireless networks
+ and especially IBSS (ad-hoc) mode and mesh networks (OLSR).
+
+Package: htop
+Version: 1.0.3-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 48983
+Filename: htop_1.0.3-1_ramips_24kec.ipk
+Size: 49557
+MD5Sum: 34d09b5ab1c5c7f0cdf4973f5a3747ae
+SHA256sum: 29a4bacc5e862a2aff4ba159f637fbb8b33f20b2fa93a3a60bec47a77c907fbb
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libcap
+Version: 2.24-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 5444
+Filename: libcap_2.24-1_ramips_24kec.ipk
+Size: 5999
+MD5Sum: e03287162a53e80029f1b4f619614fb8
+SHA256sum: d69bd5dfd762474b66543dfdd298ef7faa6f89364af758351a67d7c96846b166
+Description:  Linux capabilities library
+
+Package: libevent
+Version: 1.4.15-1
+Depends: libc, librt
+Source: feeds/packages/libs/libevent
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 87359
+Filename: libevent_1.4.15-1_ramips_24kec.ipk
+Size: 88105
+MD5Sum: 8b492e89c8cb4bea0b0c0e05bfd76394
+SHA256sum: cbfdbd0b4fa15b2f5c82d432c3f33cdff983b93dfcc5d27e38a7039f0624bd40
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+
+Package: libhavege
+Version: 1.9.1-2
+Depends: libc
+Source: feeds/packages/utils/haveged
+Section: utils
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: ramips_24kec
+Installed-Size: 20980
+Filename: libhavege_1.9.1-2_ramips_24kec.ipk
+Size: 20753
+MD5Sum: 26bf3c204cdbb3be6d2ecdd2b3e9685a
+SHA256sum: 6f57d5ba0e3ba01c540cb5e82456f5e0002f0c418ae13112869a10688a426626
+Description:  Library for haveged
+
+Package: libpcre
+Version: 8.35-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3c
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: ramips_24kec
+Installed-Size: 82408
+Filename: libpcre_8.35-2_ramips_24kec.ipk
+Size: 83061
+MD5Sum: 0a6ba1d7bab6020432db933d3bd2705a
+SHA256sum: ca207f62eeb2148162e048c11fb9777e3b77ad722c9db254656b6d8fb2e7beb9
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsqlite3
+Version: 3080704-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 366581
+Filename: libsqlite3_3080704-1_ramips_24kec.ipk
+Size: 366707
+MD5Sum: eda7b12d7b7ab30aca9c28ed8f39623e
+SHA256sum: 871f547ced95b4e29b51e2554687eaa2e8d21da9700ce1d3968387b3e93de3d1
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libwrap
+Version: 7.6-1
+Depends: libc
+Source: feeds/packages/libs/tcp_wrappers
+License: BSD
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 10787
+Filename: libwrap_7.6-1_ramips_24kec.ipk
+Size: 11371
+MD5Sum: 4333a5c8286a79ed3e4a6b7b339ed3fa
+SHA256sum: e821f6be04bf83b06630231787dcf7747b865cd5545a842fb43ff7e36f5c497c
+Description:  Security wrapper library for TCP services
+
+Package: luci-app-sqm
+Version: 1.0.3-1
+Depends: libc, lua, luci-base, sqm-scripts
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 3756
+Filename: luci-app-sqm_1.0.3-1_all.ipk
+Size: 4545
+MD5Sum: 279c805423688c80146afb1fa4d49a53
+SHA256sum: c8049a00511aa50e27e49fd02b040fff83e664f0304142bdfbbe7a9261088622
+Description:  Control the simple_qos SQM script
+
+Package: nano
+Version: 2.3.6-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: ramips_24kec
+Installed-Size: 28179
+Filename: nano_2.3.6-1_ramips_24kec.ipk
+Size: 28757
+MD5Sum: 2f699ad172277152502a2e0d0eaab3db
+SHA256sum: 8f4e51485d0dacdeec61c09cc21bf3d7f8033a8da411cd8019e0b558b63f8954
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: nfs-utils
+Version: 1.3.0-1
+Depends: libc, libwrap, libblkid, libuuid, librpc, libevent, librpc
+Source: feeds/packages/net/nfs-kernel-server
+Section: utils
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 35838
+Filename: nfs-utils_1.3.0-1_ramips_24kec.ipk
+Size: 36413
+MD5Sum: 7e0af10fc42a4ce1c07f105cec61907f
+SHA256sum: 16a8227c961705312bc374c1ee15aa6e3cec7edefed67c3b0e14b99e4dd41591
+Description:  Updated mount.nfs command - allows mounting nfs4 volumes
+
+Package: portmap
+Version: 6.0-4
+Depends: libc, libwrap, librpc
+Source: feeds/packages/net/portmap
+License: BSD-4c
+LicenseFiles: portmap.man
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 6850
+Filename: portmap_6.0-4_ramips_24kec.ipk
+Size: 7535
+MD5Sum: d51788ef97bc41234c9893b19383ebb0
+SHA256sum: dab572b85af43f22a2d737f8de8a6dc910633057aab4820162a462df7cc4e23a
+Description:  Portmap is a server that converts RPC (Remote Procedure Call) program
+ numbers into DARPA protocol port numbers.
+
+Package: sqm-scripts
+Version: 1.0.3-1
+Depends: libc, tc, kmod-sched, kmod-ifb, iptables, ip, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 17077
+Filename: sqm-scripts_1.0.3-1_all.ipk
+Size: 17789
+MD5Sum: 7f88756fec0410b92e534ce5c21c1233
+SHA256sum: b2c0bf0b68fe41ec6e54633ddc402e5fcb5710802ed28d39925cd1d8fa9f61b5
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: xl2tpd
+Version: 1.3.6-5619e1771048e74b729804e8602f409af0f3faea
+Depends: libc, ppp-mod-pppol2tp, ip, resolveip
+Source: feeds/packages/net/xl2tpd
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ramips_24kec
+Installed-Size: 44157
+Filename: xl2tpd_1.3.6-5619e1771048e74b729804e8602f409af0f3faea_ramips_24kec.ipk
+Size: 44948
+MD5Sum: 1d0bcf3901195ec3bd5c0e52dbb5b154
+SHA256sum: b8c152fd3cbd3a76e52239c88294843f9d9f9ef9dcd79421f06000d127160eee
+Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
+ It does implement both LAC and LNS role in a L2TP networking architecture. The
+ main goal of this protocol is to tunnel PPP frame trough an IP network.
+
+Package: zabbix-agent
+Version: 2.4.3-1
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 86438
+Filename: zabbix-agent_2.4.3-1_ramips_24kec.ipk
+Size: 87044
+MD5Sum: 75a25d88d1f4dd22b24b1b4a2817e9ff
+SHA256sum: d6c0fecb3f2a365a567b80bf72319df3bf3f20e11a345dcca71cab46bce7f851
+Description:  Zabbix agent
+
+Package: zabbix-agentd
+Version: 2.4.3-1
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 106662
+Filename: zabbix-agentd_2.4.3-1_ramips_24kec.ipk
+Size: 107165
+MD5Sum: 094603e5801a08fe1ccaa43c824ee3f5
+SHA256sum: 5991332b029482123f3f8c5a2d1e3cd1da5e05565a14725a17acdad452888920
+Description:  Zabbix agentd
+
+Package: zabbix-extra-network
+Version: 2.4.3-1
+Depends: libc, zabbix-agentd, libuci-lua, lua
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 520
+Filename: zabbix-extra-network_2.4.3-1_ramips_24kec.ipk
+Size: 1267
+MD5Sum: 9f3beb3335d031d5ca3e001c1bd3e039
+SHA256sum: 1d8c5d5878e36e42b12cffbf1df244efd368bbeeb46ac878a2ae7c7997cf1af5
+Description:  An extra package for zabbix-agentd that adds a discovery rule for openwrt network interfaces.
+ The idea here is to discover only interfaces listed in /etc/config/network (discover br-lan and not eth0.1 and wlan0)
+ See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
+
+Package: zabbix-extra-wifi
+Version: 2.4.3-1
+Depends: libc, zabbix-agentd, libiwinfo-lua, libuci-lua, lua
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 1136
+Filename: zabbix-extra-wifi_2.4.3-1_ramips_24kec.ipk
+Size: 1890
+MD5Sum: 7bf21382238449e4f7d6afe0367c89f7
+SHA256sum: d97354cfaff1b146319fa91e874900af8213b19897b00831e11973ff12a1be05
+Description:  An extra package for zabbix-agentd that adds a discovery rule for wifi interfaces and many userparameters.
+ As it uses libiwinfo, it works with all wifi devices supported by openwrt.
+ See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
+
+Package: zabbix-get
+Version: 2.4.3-1
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 32745
+Filename: zabbix-get_2.4.3-1_ramips_24kec.ipk
+Size: 33266
+MD5Sum: 69b95f67782292dfc7e87819c0d6dee9
+SHA256sum: 4ae0de47421b28a9546fcfd777f7cb7fea9d38fdbb852e04e9df488bb07288ed
+Description:  Zabbix get
+
+Package: zabbix-proxy
+Version: 2.4.3-1
+Depends: libc, libsqlite3
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 279860
+Filename: zabbix-proxy_2.4.3-1_ramips_24kec.ipk
+Size: 279669
+MD5Sum: 90abba89462e9365e154cb235d8844b2
+SHA256sum: 18726c7b7cfd4fb089bf88afe42f7d05bc63a6b9149238213893999f6251be11
+Description:  Zabbix proxy
+
+Package: zabbix-sender
+Version: 2.4.3-1
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 39627
+Filename: zabbix-sender_2.4.3-1_ramips_24kec.ipk
+Size: 40197
+MD5Sum: afab20799c8877dc567110fd3f1b108e
+SHA256sum: c21031c18b9e136812e1907278db4cb3293a4ccec04fe9fcebbc34652d9f5479
+Description:  Zabbix sender
+
+Package: zabbix-server
+Version: 2.4.3-1
+Depends: libc, libsqlite3
+Source: feeds/packages/admin/zabbix
+License: GPLv2
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 307634
+Filename: zabbix-server_2.4.3-1_ramips_24kec.ipk
+Size: 307570
+MD5Sum: cfdfdbe5e335525a8b932be16973a914
+SHA256sum: bc27eecc3ffbafffb6b58c665cddb97b8e29c0385f0d41e372bd9a9c1b4e53d2
+Description:  Zabbix server
+

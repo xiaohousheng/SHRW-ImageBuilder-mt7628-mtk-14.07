@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/lagare/openwrt-3.10.14/staging_dir/host/bin/bison' -y "$@"

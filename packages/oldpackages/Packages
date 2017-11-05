@@ -1,0 +1,403 @@
+Package: aircrack-ng
+Version: 1.1-3
+Depends: libc, libpthread, libopenssl, libpcap
+Source: feeds/oldpackages/net/aircrack-ng
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 418061
+Filename: aircrack-ng_1.1-3_ramips_24kec.ipk
+Size: 416808
+MD5Sum: 4bcbb79a3e10a67e0487abd4f78ada17
+SHA256sum: f83780bfb57e64a6627fac185ccf33278b3a66e28412344c3085b2e1a1758d2a
+Description:  Aircrack-ng is the next generation of aircrack with new features
+
+Package: aircrack-ptw
+Version: 1.0.0-1
+Depends: libc, libpcap
+Source: feeds/oldpackages/net/aircrack-ptw
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 5720
+Filename: aircrack-ptw_1.0.0-1_ramips_24kec.ipk
+Size: 6232
+MD5Sum: 9ab7d5fcf8f49758529b779b49bc845f
+SHA256sum: 4a1aa928c058c4b7c18472ea47bfd9d61bb8f8b609eec1c06d293acf05e483f4
+Description:  A tool using a new method for breaking WEP Keys
+
+Package: airpwn
+Version: 1.3-1
+Depends: libc, libnet1, libopenssl, libpcap, libpcre, libpthread
+Source: feeds/oldpackages/net/airpwn
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 19369
+Filename: airpwn_1.3-1_ramips_24kec.ipk
+Size: 20085
+MD5Sum: e3866e53a3d2e72f85e476a9a4f28a03
+SHA256sum: 55257d515fa1569f89d91bd9a7dcf93102281ee1d954eba4cb2d34421159fd44
+Description:  Airpwn is a framework for 802.11 (wireless) packet injection.
+ Airpwn listens to incoming wireless packets, and if the data
+ matches a pattern specified in the config files, custom content
+ is injected "spoofed" from the wireless access point. From the
+ perspective of the wireless client, airpwn becomes the server.
+
+Package: bash-completion
+Version: 20080705-2
+Depends: libc, libncurses, bash
+Source: feeds/oldpackages/utils/bash-completion
+Section: utils
+Architecture: all
+Installed-Size: 58138
+Filename: bash-completion_20080705-2_all.ipk
+Size: 58880
+MD5Sum: 0860b374bac0635741ef51a9a570a6a7
+SHA256sum: e78115b6fa3961e66a876bd60ac12f9433de65a5ab12625915a6699fec51b53b
+Description:  bash completion extends bashs standard completion behavior
+ to achieve complex command lines with just a few keystrokes.
+
+Package: kismet-client
+Version: 2010-07-R1-2
+Depends: libc, uclibcxx, libnl, libncurses
+Source: feeds/oldpackages/net/kismet
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 275836
+Filename: kismet-client_2010-07-R1-2_ramips_24kec.ipk
+Size: 276110
+MD5Sum: 76290f7df5dfa2020341ac0ba1697687
+SHA256sum: c8cf61d462791bb1695db3a1d2ce70d3d785a6cd3aa518f2e7dbb5beb7f6c091
+Description:  An 802.11 layer2 wireless network detector, sniffer, and intrusion
+ detection system.
+ This package contains the kismet text interface client.
+
+Package: kismet-drone
+Version: 2010-07-R1-2
+Depends: libc, uclibcxx, libnl, libpcap, libpcre, libcap
+Source: feeds/oldpackages/net/kismet
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 190563
+Filename: kismet-drone_2010-07-R1-2_ramips_24kec.ipk
+Size: 191077
+MD5Sum: bbd92b54fe98932d5e95a3ecc2ce47cb
+SHA256sum: e4a2bb52d1b511cc77cf35932a883c269922620c047c1669d9264efe53fefff1
+Description:  An 802.11 layer2 wireless network detector, sniffer, and intrusion
+ detection system.
+ This package contains the kismet remote sniffing.and monitoring drone.
+
+Package: kismet-server
+Version: 2010-07-R1-2
+Depends: libc, uclibcxx, libnl, libpcap, libpcre, libcap
+Source: feeds/oldpackages/net/kismet
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 334056
+Filename: kismet-server_2010-07-R1-2_ramips_24kec.ipk
+Size: 333842
+MD5Sum: 46d7ac13b03df05429ea5a748540d13a
+SHA256sum: a092b9989157258abbfe7535ef259e7fac0bf0e20a748b1cfabd7a61e653b2ea
+Description:  An 802.11 layer2 wireless network detector, sniffer, and intrusion
+ detection system.
+ This package contains the kismet server.
+
+Package: l2tpd
+Version: 0.70pre-4.1
+Depends: libc
+Source: feeds/oldpackages/net/l2tpd
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 33471
+Filename: l2tpd_0.70pre-4.1_ramips_24kec.ipk
+Size: 34185
+MD5Sum: 95d18946f3eaf0d02b03486f7ff1f2c0
+SHA256sum: 5e9e66541bf37e1b9aab18ccd1ac4dd3a88e0dead1957ad755320e8b18d39884
+Description:  l2tpd is the open source implementation of the L2TP tunneling
+ protocol (RFC2661). It does implement both LAC and LNS role
+ in a L2TP networking architecture. The main goal of this protocol is
+ to tunnel PPP frame trough an ip network.
+
+Package: l2tpns
+Version: 2.1.21-1
+Depends: libc, libcli
+Source: feeds/oldpackages/net/l2tpns
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 110478
+Filename: l2tpns_2.1.21-1_ramips_24kec.ipk
+Size: 111156
+MD5Sum: a2385547bd0809975009aff982ef87ec
+SHA256sum: 1187a4c3c2fbb189d2945a2dfe0fdaaceedc222df6c6509fb8b43ceb6f8df7a7
+Description:  l2tpns is a layer 2 tunneling protocol network server (LNS).
+ it supports up to 65535 concurrent sessions per server/cluster
+ plus ISP features such as rate limiting, walled garden, usage
+ accounting, and more.
+
+Package: l7-protocols
+Version: 2009-05-28-2
+Depends: libc, iptables-mod-filter
+Source: feeds/oldpackages/net/l7-protocols
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 49424
+Filename: l7-protocols_2009-05-28-2_ramips_24kec.ipk
+Size: 49438
+MD5Sum: 227440b5554583b20ee5180f421e3038
+SHA256sum: d6f1e5cc1537d3bab1b58fe7af462f90ad4a5726775037fd39effa45ab3320ac
+Description:  l7-filter classifies packets based on patterns in application
+ layer data. This allows correct classification of P2P traffic that
+ uses unpredictable ports as well as standard protocols running on
+ non-standard ports.
+
+Package: libcli
+Version: 1.9.4-1
+Depends: libc
+Source: feeds/oldpackages/libs/libcli
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 12079
+Filename: libcli_1.9.4-1_ramips_24kec.ipk
+Size: 12751
+MD5Sum: 2694acdca1d20879c5ed6ab23aa38c5d
+SHA256sum: d65422be31bf1647ab6c830c4ec2af57cb6dea3e3a3eaa3e5e7a19d0ac374b0a
+Description:  Libcli provides a shared library for including a Cisco-like
+ command-line interface into other software. It's a telnet
+ interface which supports command-line editing, history,
+ authentication and callbacks for a user-definable function tree.
+
+Package: libnet0
+Version: 1.0.2a-9
+Depends: libc, libpcap
+Source: feeds/oldpackages/libs/libnet-1.0.x
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 9856
+Filename: libnet0_1.0.2a-9_ramips_24kec.ipk
+Size: 10385
+MD5Sum: 8eb0865f50227a03662c9d7fe2e8807a
+SHA256sum: 65d8da512152bd6fff1afab363ea0ec4e2ed16c4ddd8d37e83de66fafee929d7
+Description:  Low-level packet creation library (v1.0.x)
+
+Package: libnet1
+Version: 1.1.6-1
+Depends: libc, libpcap
+Source: feeds/oldpackages/libs/libnet-1.1.x
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 27746
+Filename: libnet1_1.1.6-1_ramips_24kec.ipk
+Size: 28317
+MD5Sum: 58da0d5764379d5d542f849dc56b7b88
+SHA256sum: 02afabde2eb97de5fc3d5671bffa1ccc18a581809e9dcd71da25d9fd8694fd12
+Description:  Low-level packet creation library (v1.1.x)
+
+Package: mtd-utils
+Version: 1.5.0-2
+Depends: libc
+Source: feeds/oldpackages/utils/mtd-utils
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 105
+Filename: mtd-utils_1.5.0-2_ramips_24kec.ipk
+Size: 622
+MD5Sum: ade290db4647ab279e674b1c7a5b58e7
+SHA256sum: ee74acc2abe93efd61bc4025374a301d39f7ab0fcc6d86a27eb8ba5c65f92948
+Description:  Utilities for manipulating memory technology devices.
+
+Package: ntfs-3g-utils
+Version: 2014.2.15-1-fuseint
+Depends: libc, ntfs-3g
+Source: feeds/oldpackages/utils/ntfs-3g
+Section: utils
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 59615
+Filename: ntfs-3g-utils_2014.2.15-1-fuseint_ramips_24kec.ipk
+Size: 60170
+MD5Sum: 3f7ac75662bc2a9eaf31cafd4e41836e
+SHA256sum: c942aa4878d49f43024423dfe621303bca19039f1267b2ea88d2a260dde3a8a7
+Description:  Additional ntfs-3g utilities. Not included by default for size
+ considerations. All binaries except ntfs-3g, ntfs-3g.probe.
+ 
+ Currently:
+ - ntfs-3g.secaudit
+ - ntfs-3g.usermap
+ 
+
+Package: ntfs-3g
+Version: 2014.2.15-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+Source: feeds/oldpackages/utils/ntfs-3g
+Section: utils
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 178002
+Filename: ntfs-3g_2014.2.15-1-fuseint_ramips_24kec.ipk
+Size: 178876
+MD5Sum: 5c3a58aedc72974da0b5f0e8c19f2f1a
+SHA256sum: 21b3dfd2f558dcae7d679234cd2795af27fdc761cddbadd9dea90a2476ec624e
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: openl2tp-full
+Version: 1.8-4
+Depends: libc, ppp-mod-pppol2tp, portmap, libreadline, libncurses, librpc
+Provides: openl2tp
+Source: feeds/oldpackages/net/openl2tp
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 173578
+Filename: openl2tp-full_1.8-4_ramips_24kec.ipk
+Size: 174001
+MD5Sum: e171a692ff4dd0b5336255b8527093ae
+SHA256sum: bda02308f7cd789f3ac478081c3b370235ccaaa3ab3c9b105cdcfd228a0c5083
+Description:  OpenL2TP is an open source L2TP client/server, written by Katalix Systems
+ specifically for Linux. It has been designed for use as an enterprise
+ L2TP VPN server or in commercial, Linux-based, embedded networking
+ products and is able to support hundreds of sessions, each with different
+ configuration.
+ .
+ This package a full-featured, RPC-enabled OpenL2TP.
+
+Package: openl2tp-mini
+Version: 1.8-4
+Depends: libc, ppp-mod-pppol2tp
+Provides: openl2tp
+Source: feeds/oldpackages/net/openl2tp
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 103092
+Filename: openl2tp-mini_1.8-4_ramips_24kec.ipk
+Size: 103708
+MD5Sum: 7a989df9c10e613542eea17d1d589641
+SHA256sum: 50feb3a9091ef9e3569ba2df0ae4673b5c81e3f763b0167e88c333ca0d4b60ce
+Description:  OpenL2TP is an open source L2TP client/server, written by Katalix Systems
+ specifically for Linux. It has been designed for use as an enterprise
+ L2TP VPN server or in commercial, Linux-based, embedded networking
+ products and is able to support hundreds of sessions, each with different
+ configuration.
+ .
+ This package a minimal-featured, RPC-disabled OpenL2TP.
+
+Package: pptpd
+Version: 1.4.0-1
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Source: feeds/oldpackages/net/pptpd
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 27207
+Filename: pptpd_1.4.0-1_ramips_24kec.ipk
+Size: 27710
+MD5Sum: 1218cba8d054746e00aa22c2ae584849
+SHA256sum: db95d8cbdc1bb9784215e6f0eb5dc12436a174436e4d8774964df990fb553ca6
+Description:  PopTop pptp server
+
+Package: reaver
+Version: r113-1
+Depends: libc, libpcap, libsqlite3
+Source: feeds/oldpackages/net/reaver
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 186938
+Filename: reaver_r113-1_ramips_24kec.ipk
+Size: 151190
+MD5Sum: 440c39e1881238dcddefb68e5b84d133
+SHA256sum: 36a864adcb9bd09a1321a59810cc0b8460d86efb49a235313b73b544abecc290
+Description:  Reaver targets the external registrar functionality mandated by the WiFi
+ Protected Setup specification.
+ Access points will provide authenticated registrars with their current
+ wireless configuration (including the WPA PSK), and also accept a new
+ configuration from the registrar.
+
+Package: snort-wireless
+Version: 2.4.3-alpha04-1
+Depends: libc, libnet0, libpcap, libpcre
+Source: feeds/oldpackages/net/snort-wireless
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 286901
+Filename: snort-wireless_2.4.3-alpha04-1_ramips_24kec.ipk
+Size: 287160
+MD5Sum: 8aaa03eb8b0a3fe9139c7bd9b937cc45
+SHA256sum: 22b378f3a3c4fb4c1a0b1b9944037cb85dd33bc40fec5c82b720cf2e1b31b1d9
+Description:  Lightweight Network Intrusion Detection System
+
+Package: vim-full
+Version: 7.3-1
+Depends: libc, libncurses
+Source: feeds/oldpackages/utils/vim
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 705803
+Filename: vim-full_7.3-1_ramips_24kec.ipk
+Size: 705583
+MD5Sum: 62c320ac70713396155cd4dabc0879da
+SHA256sum: c46c17b9c09059aecc3768f360c173536094218629e02ffb94913a4634e84a25
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: vim
+Version: 7.3-1
+Depends: libc, libncurses
+Source: feeds/oldpackages/utils/vim
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 245688
+Filename: vim_7.3-1_ramips_24kec.ipk
+Size: 246002
+MD5Sum: 937afe252dfc61bd79a60fee56aeac2a
+SHA256sum: 1b1690956d055009f82bbb8459866bcbc27616a9093ef60c7906fddb02012a29
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Tiny build)
+
+Package: watchcat
+Version: 1-5
+Depends: libc
+Source: feeds/oldpackages/utils/watchcat
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 2052
+Filename: watchcat_1-5_ramips_24kec.ipk
+Size: 2673
+MD5Sum: 2795f627dc25968f71dffff4a6c48479
+SHA256sum: ba7784da1fbb7fd19a87036b58ed971254588350f10d9d101ce2e6615c14cd38
+Description:  Allows to configure a periodically reboot, or after loosing internet connectivity. Configured trough UCI /etc/config/system.
+
+Package: wifitoggle
+Version: 1-4
+Depends: libc
+Source: feeds/oldpackages/utils/wifitoggle
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 1539
+Filename: wifitoggle_1-4_ramips_24kec.ipk
+Size: 2236
+MD5Sum: bf3091c488d28afbd91defc94cdf4b79
+SHA256sum: a669ac1ee3be87a9b8cbef6c6f3a4fd34d2f0441dd67655245a1a03fe41d20b4
+Description:  Very versatile script to toggle Wi-Fi with a button. Allows to set
+ timeouts, persist changes after boot, and set LEDs according to the state.
+
+Package: wol
+Version: 0.7.1-3
+Depends: libc
+Source: feeds/oldpackages/net/wol
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 6550
+Filename: wol_0.7.1-3_ramips_24kec.ipk
+Size: 7162
+MD5Sum: 65215b89744962895e1e4c9a122269fc
+SHA256sum: 72846d0021258794dc998f4f6c9afeaa367d7339050eb108891430a845e94a24
+Description:  wol implements Wake On LAN functionality in a small program.
+ It wakes up hardware that is Magic Packet compliant.
+

@@ -1,0 +1,206 @@
+Package: community-profiles
+Version: 2
+Depends: libc, freifunk-common
+Source: feeds/luci/contrib/package/community-profiles
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 5356
+Filename: community-profiles_2_ramips_24kec.ipk
+Size: 5910
+MD5Sum: 5a3a82df75782872bc428fbe370c7f97
+SHA256sum: 49d9c3e2b8f0da698916210f5f05b5ef7041d6621bf66bb564a9454c99410c6c
+Description:  These community profiles set defaults for various free network/freifunk communities and are used by wizards like ffwizard and meshwizard.
+
+Package: freifunk-common
+Version: 1
+Depends: libc
+Source: feeds/luci/contrib/package/freifunk-common
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 2940
+Filename: freifunk-common_1_ramips_24kec.ipk
+Size: 3515
+MD5Sum: 728876ce647dbfe69e07dd68833137bb
+SHA256sum: e9a4e27032f7ef71375aeeb00188b7b145b2d81e43bdbaf06f763d82ce469c48
+Description:  Common files and scripts that are needed to run free wireless mesh networks.
+
+Package: freifunk-firewall
+Version: 3
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/freifunk-firewall
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 1155
+Filename: freifunk-firewall_3_ramips_24kec.ipk
+Size: 1891
+MD5Sum: 052cc17fd0b9f6f28d76891a0ddb808d
+SHA256sum: 41a06def0e5e05c02374bea6d2d18e815119bf2599cc2c23c3a4df7d12bdaf91
+Description:  Various firewall extensions for Freifunk. Includes NAT fixes and advanced settings.
+
+Package: freifunk-p2pblock
+Version: 3
+Depends: libc, iptables-mod-filter, iptables-mod-ipp2p, l7-protocols, iptables-mod-conntrack-extra
+Source: feeds/luci/contrib/package/freifunk-p2pblock
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 1317
+Filename: freifunk-p2pblock_3_ramips_24kec.ipk
+Size: 1959
+MD5Sum: c2c25b59bb672377cb1ad51e6746a62c
+SHA256sum: c545a3f96f4fc69d4bf74ff86c30ba9c35881bb93e2891e200583cd8b9269baa
+Description:  Simple Addon for Freifunk which use iptables layer7-, ipp2p- and recent-modules 
+ to block p2p/filesharing traffic
+
+Package: freifunk-policyrouting
+Version: 6
+Depends: libc, ip
+Source: feeds/luci/contrib/package/freifunk-policyrouting
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 2282
+Filename: freifunk-policyrouting_6_ramips_24kec.ipk
+Size: 2984
+MD5Sum: 08f6de8ffc7d17fc2d2d319ae62eb084
+SHA256sum: 8f3f901b33f028d96d5d31e85cf3c3653e620a22d68ec637aa99ba26bbb04baa
+Description:  Allows you to send your own traffic via your own default gateway while sending traffic received from the mesh to a gateway in the mesh.
+
+Package: freifunk-watchdog
+Version: 8
+Depends: libc, libuci
+Source: feeds/luci/contrib/package/freifunk-watchdog
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 5582
+Filename: freifunk-watchdog_8_ramips_24kec.ipk
+Size: 6210
+MD5Sum: 5499f8f04657bc28585e763e9d706804
+SHA256sum: d0d4ececfa6d54fb0052e36030b89f2ea716bebce4c3175e96394392abc3710d
+Description:  A watchdog daemon that monitors wireless interfaces to ensure the correct bssid and channel.
+ The process will initiate a wireless restart as soon as it detects a bssid or channel mismatch.
+
+Package: luci-app-diag-core
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 5685
+Filename: luci-app-diag-core_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 6291
+MD5Sum: 4577a75790481f0db918202dcf5028b0
+SHA256sum: 33411ae077ce0e156750a3fab0e6de0ec2ab7ccf81ca95d4823eb37d92d77c0f
+Description:  LuCI Diagnostics Tools (Core)
+
+Package: luci-app-freifunk-diagnostics
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 2425
+Filename: luci-app-freifunk-diagnostics_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 3171
+MD5Sum: 2dc8c62019b50719b541198ee0e37885
+SHA256sum: fbfeb41bf12694e5765a6773cf7bbf69f747a2bb01ae68b14a8836094b7a8c96
+Description:  Tools for network diagnosis like traceroute and ping
+
+Package: luci-app-freifunk-policyrouting
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, freifunk-policyrouting
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 7367
+Filename: luci-app-freifunk-policyrouting_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 8008
+MD5Sum: 16cdb4c71eb24f369cc3214e8776bfe6
+SHA256sum: 9dd3dc9cff451bce301f1971872504038a38cd94688925830370a9ad8a6fe341
+Description:  Policy routing for mesh traffic
+
+Package: luci-app-freifunk-widgets
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, luci-mod-freifunk
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 4523
+Filename: luci-app-freifunk-widgets_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 5143
+MD5Sum: 3387cad7de288f2484f4a132d432d7b1
+SHA256sum: e88ac22cbbef38e103fb87f1f2b20adb30503b85be7e185a8f8696b49f5c10b6
+Description:  Widgets for the Freifunk index page
+
+Package: luci-app-samba
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, samba36-server
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 12644
+Filename: luci-app-samba_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 13269
+MD5Sum: 0afa18f2054bcf1cefff5ce9de61903f
+SHA256sum: 086fc9eb9239aacb7e0bb5aa17d6284dc783b84701a36c52ef26c12b07d36043
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-app-upnp
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, miniupnpd
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 20162
+Filename: luci-app-upnp_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 20805
+MD5Sum: eee61ff77dc036773960a0cc2ca07181
+SHA256sum: a3856a837730a7808a2e4f8f68c4dc1a9fcc9c2eb798e5e2051a95f68c30537a
+Description:  Universal Plug & Play configuration module
+
+Package: luci-app-watchcat
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, watchcat
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 9297
+Filename: luci-app-watchcat_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 10092
+MD5Sum: c4cee84d98958f8d6bd216a0355fff19
+SHA256sum: 1bc96664b2631afff1c8140e18ba641433aacb47b166671ec93f73fae63547e5
+Description:  LuCI Support for Watchcat
+
+Package: luci-app-wol
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, etherwake
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 8856
+Filename: luci-app-wol_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 9497
+MD5Sum: 4263f57e5c361f8ac035b04849765ee6
+SHA256sum: 76f81694681512094716936653dae9bec43efae53c46c57de2e2f1612c84cfcf
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-mod-freifunk
+Version: 0.12+git-16.038.38474-0d510b2-1
+Depends: libc, luci-mod-admin-full, luci-lib-json, freifunk-firewall, freifunk-common
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 51640
+Filename: luci-mod-freifunk_0.12+git-16.038.38474-0d510b2-1_ramips_24kec.ipk
+Size: 52403
+MD5Sum: 998e207e6c55a438fd1b3666d294ee24
+SHA256sum: 7948469c373c47c142779e1de79c49da81abb51eadd11ca4c4c9f517e338b073
+Description:  LuCI Freifunk module
+
